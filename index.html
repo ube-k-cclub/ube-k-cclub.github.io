@@ -33,7 +33,7 @@
       <div class="level-left"></div>
       <div class="level-right">
         <div class="level-item tabs">
-          <ul>
+          <ul id="tabs">
             <li class="is-active"><a>部活について</a></li>
             <li><a>行事詳細</a></li>
             <li><a>部活動説明会について</a></li>
@@ -42,7 +42,7 @@
       </div>
     </section>
 
-    <div id="club-about">
+    <div class="tabs-content" id="club-about">
       <article class="box">
         <div class="content">
           <h4><strong>宇部高専コンピュータ部とは？</strong></h4>
@@ -104,7 +104,7 @@
       </article>
     </div>
 
-    <div id="club-event">
+    <div class="tabs-content" id="club-event" style="display: none;">
       <article class="box">
         <div class="content">
           <h4><strong>4月〜5月　新入生歓迎会</strong></h4>
@@ -197,7 +197,7 @@
       </article>
     </div>
 
-    <div id="club-intro">
+    <div class="tabs-content" id="club-intro" style="display: none;">
       <article class="box">
         <div class="content">
           <h4><strong>概要</strong></h4>
@@ -259,5 +259,11 @@
         <div class="content has-text-centered">
           宇部高専コンピュータ部<br>
           Produced by <a href="https://twitter.com/hsm_hx">hsm_hx</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
